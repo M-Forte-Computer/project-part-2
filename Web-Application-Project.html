@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Financial Tracker</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script type="module" src="./js/main.js"></script>
+    </head>
+<body>
+    <h1>Financial Tracker</h1>
+    <div>
+        <label for="type">Type:</label>
+        <select id="type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+            <option value="savings">Savings</option>
+        </select>
+    </div>
+    <div>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount">
+    </div>
+    <button id="addEntry">Add Entry</button>
+    <button id="displaySummary">Display Summary</button>
+    <pre id="summary"></pre>
+
+    <h2>Stock Data</h2>
+    <button id="getStocks">Get Stock Recommendations</button>
+    <ul id="stocks"></ul>
+    
+
+<label for="pricePerShare">Price per share:</label>
+<input type="number" id="pricePerShare" placeholder="Enter price per share">
+
+<label for="sharesToBuy">Number of shares to buy:</label>
+<input type="number" id="sharesToBuy" placeholder="Enter number of shares">
+
+
+</body>
+</html>

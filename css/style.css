@@ -1,0 +1,109 @@
+body{
+    background-color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0%;
+    justify-content: center;
+    background-image: url(../images/expensetracker.avif);
+    background-size: cover;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+        background-color: rgb(111, 84, 93);
+        font-family:'Brush Script', cursive;
+        padding: 25px;
+        font-size: 2.9em;
+      }
+    
+      option {
+        margin: 12px 0;
+        padding: 10px;
+        width: 500px;
+        height: 120px;
+      }
+    
+      input {
+        font-size: 20px;
+      }
+    
+      #type{
+        width: 300px;
+        height: 50px;
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        box-shadow: 10px 5px 3px grey;
+        border-radius: 5px;
+      }
+    
+      #type:hover{
+        background-color: burlywood;
+      }
+    
+      option:hover{
+        background-color: bisque;
+      }
+    
+      .container{
+        border: 2px black;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 2% ;
+        padding: 50px 40px;
+        box-shadow: 5px 10px 15px 5px burlywood;
+        height: 50%;
+        background-color:rgb(246, 246, 244);
+      }
+    
+      div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      label{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.8em;
+        margin: 15px;
+        text-shadow: 2px 2px 5px gray;
+      }
+    
+      #amount{
+        width: 300px;
+        height: 40px;
+        box-shadow: 10px 5px 3px grey;
+        border-radius: 5px;
+      }
+    
+      #amount:hover{
+        background-color: burlywood;
+       
+      }
+    
+      button {
+        display:flex;
+        padding: 15px 20px;
+        margin: 20px 0;
+        cursor: pointer;
+        background-color:rgb(207, 170, 176);
+        align-items: center;
+        font-style: italic;
+        width: 200px;
+        font-size: 1.2em;
+        
+      }
+    
+      button:hover{
+        background-color: beige;
+      }
+    
+    #summary{
+      font-size: 2em;
+      color: black;
+    }
+    
+     
